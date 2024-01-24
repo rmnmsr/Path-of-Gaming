@@ -7,6 +7,9 @@ const nova = Nova_Square({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Path of Gaming",
   description: "The gaming coach",
+  icons: {
+    icon: "favicon.svg",
+  },
 };
 
 export default function RootLayout({
